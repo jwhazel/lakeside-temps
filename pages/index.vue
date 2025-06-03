@@ -1,4 +1,5 @@
 <template>
+    <h1>Lakeside Swim Club current temperatures</h1>
     <div>Lake Temperature: {{ data.lakeTemp }} °F</div>
     <div>Pool Temperature: {{ data.poolTemp }} °F</div>
     <div>Last Updated: {{ lastUpdated }} ago</div>
