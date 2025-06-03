@@ -8,8 +8,8 @@ const { redisURL, redisToken } = runtimeConfig;
 
 // Define the expected payload schema for our response
 const responseSchema = z.object({
-  poolTemp: z.number().gte(40).lte(100),
-  lakeTemp: z.number().gte(40).lte(100),
+  poolTemp: z.number().gte(50).lte(100),
+  lakeTemp: z.number().gte(50).lte(100),
   timestamp: z.iso.datetime(),
 });
 
