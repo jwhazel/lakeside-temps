@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     passPhrase: process.env.PASSPHRASE,
     redisURL: process.env.REDIS_URL,
     redisToken: process.env.REDIS_TOKEN,
+    vercelBypassToken: process.env.VERCEL_BYPASS_TOKEN
   },
   nitro: {
     vercel: {
