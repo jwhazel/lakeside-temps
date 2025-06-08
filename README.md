@@ -7,7 +7,7 @@ A dashboard for capturing Lakeside temperature data and surfacing it via an API.
 - `/` - the homepage dashboard
 - `/upload` - the form used by staff and other trusted invdividuals to enter the temperature data. Requires a passphrase for security
 - `/api/get-temps` - Returns the last recorded temps in the following schema:
-
+ 
 ```
 {
   "poolTemp": 82,
