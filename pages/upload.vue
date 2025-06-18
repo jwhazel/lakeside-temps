@@ -76,7 +76,7 @@ const submit = async () => {
     status.response = '❌ There was an error saving temperatures';
   }
 
-  formIsSubmitting.value = false;
+  status.submissionInProgress = false;
 };
 </script>
 
